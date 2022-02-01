@@ -27,12 +27,12 @@ App has been implemented using html, CSS Javascript and jQuery.
 &nbsp;
 &nbsp;
 ### App Requirements
-![Req part 1](Assets/RandomQuoteReq_1.png)
-![Req part 2](Assets/RandomQuoteReq_2.png)
+![Req part 1](Assets/Markdown_Previewer_Requirements.png)
+
 
 
 &nbsp;
 &nbsp;
 ### App Mock Up
 
-![App mock up](Assets/RandomQuoteMockUp.png)
+![App mock up](Assets/Markdown_Previewer_MockUp.png)
