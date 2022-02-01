@@ -1,1 +1,44 @@
+ <!DOCTYPE html>
+ <html>
+     <head>
+        <title>A Markdown Previewer</title>
+        <link rel='stylesheet' type='text/css' href='styles.css'>
+        <!-- ADD YOUR OWN FONTAWESOME SCRIPT TAG HERE or the icons in the html below will NOT work -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script type='text/javascript' src='script.js'></script>
+     </head>
 
+     <body>
+        <main id='container'>
+            <article id='editor-pane'>
+                <header id='editor-header'>
+                    <div id='header-div1'>
+                        <i class="fab fa-free-code-camp"></i>
+                        <span>Editor</span>
+                    </div>
+                    <div id='btn-div1'>
+                        <button id='e-exp'><i class="fas fa-expand"></i></button>
+                        <button id='e-com' class='hide'><i class="fas fa-compress"></i></button>
+                    </div>
+                </header>
+                <textarea id='editor' rows='10'></textarea>
+            </article>
+
+            <article id='preview-pane'>
+                <header id='preview-header'>
+                    <div id='header-div2'>
+                        <i class="fab fa-free-code-camp"></i>
+                        <span>Previewer</span>
+                    </div>
+                    <div id='btn-div2'>
+                        <button id='p-exp'><i class="fas fa-expand"></i></button>
+                        <button id='p-com' class='hide'><i class="fas fa-compress"></i></button>
+                    </div>
+                </header>
+                <div id='preview'></div>
+            </article>
+        </main>
+     </body>
+ </html>
